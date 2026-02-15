@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class question04{
+  public static void main(String [] args){
+  Scanner sc = new Scanner(System.in);
+  int N= sc.nextInt();
+   
+    while(N!= 0){
+      if(N>= 10){
+        int num= N%10;
+        System.out.print(num + ", ");
+      } 
+      else {
+        System.out.print(N);
+      }
+      N= N/10;
+
+  }
+ }
+}
